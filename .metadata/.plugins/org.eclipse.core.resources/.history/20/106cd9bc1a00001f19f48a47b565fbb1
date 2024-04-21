@@ -1,0 +1,26 @@
+package app;
+import util.Algoritmos;
+
+public class Principal  {
+	public static void main(String[] args) {
+		// Crear un array de enteros para almacenar los números aleatorios
+        int[] numeros = new int[5];
+
+        // Llenar el array con números aleatorios del 1 al 10 usando Math.random()
+        for (int i = 0; i < numeros.length; i++) {
+            numeros[i] = (int) (Math.random() * 10) + 1;
+        }
+
+        // Crear arrays para almacenar los resultados del cálculo de Fibonacci, factorial y si son primos
+        int[] resultadoFibonacci = new int[5];
+        int[] resultadoFactorial = new int[5];
+        boolean[] resultadoPrimos = new boolean[5];
+
+        // Calcular Fibonacci, factorial y verificar si son primos para cada número en el array
+        for (int i = 0; i < numeros.length; i++) {
+            resultadoFibonacci[i] = fibonacci(numeros[i]);
+            resultadoFactorial[i] = factorial(numeros[i]);
+            resultadoPrimos[i] = esPrimo(numeros[i]);
+        }
+    }
+}
