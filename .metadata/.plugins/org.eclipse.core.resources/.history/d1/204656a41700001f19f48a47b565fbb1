@@ -9,7 +9,7 @@ public abstract class Algoritmos {
 	 * Calcula el valor de la posicion solicitada en el método siguiendo la sucesión
 	 * de fibonacci
 	 *
-	 * @param numero de la posicion de Fibonacci que se desea calcular.
+	 * @param posicion de Fibonacci que se desea calcular.
 	 * @return El valor de la posición de la secuencia de Fibonacci especificada.
 	 */
 	public static int fibonacci(int numero) {
