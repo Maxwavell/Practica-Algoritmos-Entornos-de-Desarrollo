@@ -17,6 +17,8 @@ public class Principal  {
             resultadoFibonacci[i] = Algoritmos.fibonacci(numeros[i]);
             resultadoFactorial[i] =  Algoritmos.factorial(numeros[i]);
             resultadoPrimos[i] =  Algoritmos.esPrimo(numeros[i]);
+            
+           
         }
     }
 }

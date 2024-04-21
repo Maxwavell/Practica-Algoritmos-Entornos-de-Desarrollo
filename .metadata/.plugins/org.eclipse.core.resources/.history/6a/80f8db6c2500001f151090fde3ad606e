@@ -1,0 +1,15 @@
+package tests;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import util.Algoritmos;
+
+class TestAlgoritmos {
+@Test
+void testfactorial() {
+	int resultadoesperado = 720;
+	int prueba = Algoritmos.factorial(6);
+	assertEquals(resultadoesperado,prueba);
+}
+
+}

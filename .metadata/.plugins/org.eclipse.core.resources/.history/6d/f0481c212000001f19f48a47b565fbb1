@@ -1,0 +1,55 @@
+package util;
+
+/**
+ * Esta clase contiene varios algoritmos matematicos.
+ */
+public abstract class Algoritmos {
+
+    /**
+     * Calcula el valor de la posicion solicitada en el metodo siguiendo la sucesion
+     * de fibonacci
+     *
+     * @param numero de la posicion de Fibonacci que se desea calcular.
+     * @return El valor de la posicion de la secuencia de Fibonacci especificada.
+     */
+    public static int fibonacci(int numero) {
+        if (numero <= 1) {
+            return numero;
+        } else {
+            return fibonacci(numero - 1) + fibonacci(numero - 2);
+        }
+    }
+
+    /**
+     * Calcula el factorial de un numero entero.
+     * 
+     * @param numero El numero entero del cual se calculara el factorial.
+     * @return El factorial del numero dado.
+     */
+    public static int factorial(int numero) {
+        int resultado = 1;
+        for (int i = numero; i > 1; i--) {
+            resultado *= i;
+        }
+        return resultado;
+    }
+
+    /**
+     * Verifica si un numero entero dado es primo.
+     *
+     * @param numero El numero entero que se desea verificar si es primo.
+     * @return true si el numero dado es primo, false en caso contrario.
+     */
+    public static boolean esPrimo(int numero) {
+        if (numero <= 1) {
+            return true; 
+        }
+        for (int i = 2; i * i <= numero; i++) {
+            if (numero % i == 0) {
+                return true; 
+            }
+        }
+        return false; 
+    }
+
+}

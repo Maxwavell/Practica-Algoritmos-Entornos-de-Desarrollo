@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestAlgoritmos" project="PracticaAlgoritmos" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.TestAlgoritmos" time="0.011" displayname="TestAlgoritmos" uniqueid="[engine:junit-jupiter]/[class:tests.TestAlgoritmos]">
+    <testcase name="testfactorial" classname="tests.TestAlgoritmos" time="0.011" displayname="testfactorial()" uniqueid="[engine:junit-jupiter]/[class:tests.TestAlgoritmos]/[method:testfactorial()]"/>
+  </testsuite>
+</testrun>

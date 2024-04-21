@@ -42,13 +42,15 @@ public abstract class Algoritmos {
      */
     public static boolean esPrimo(int numero) {
         if (numero <= 1) {
-            return false;
+            return false; 
         }
-        for (int i = 2; i < numero; i++) {
+        for (int i = 2; i * i <= numero; i++) {
             if (numero % i == 0) {
-                return false;
+                return false; 
             }
         }
-        return true;
+        return true; 
     }
-}
+    }
+
+

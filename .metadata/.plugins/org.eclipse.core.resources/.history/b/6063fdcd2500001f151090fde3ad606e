@@ -1,0 +1,30 @@
+package tests;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import util.Algoritmos;
+
+class TestAlgoritmos {
+@Test
+void testfactorial() {
+	int resultadoesperado = 720;
+	int prueba = Algoritmos.factorial(6);
+	assertEquals(resultadoesperado,prueba);
+}
+@Test
+void testesPrimo() {
+	boolean resultadoesperado1 = true;
+	int prueba1 = Algoritmos.factorial(7);
+	boolean resultadoesperado2 = false;
+	int prueba2 = Algoritmos.factorial(2);
+	assertEquals(resultadoesperado1,prueba1);
+	assertEquals(resultadoesperado2,prueba2);
+}
+
+@Test
+void testfibonacci() {
+	int resultadoesperado = 720;
+	int prueba = Algoritmos.factorial(6);
+	assertEquals(resultadoesperado,prueba);
+}
+}

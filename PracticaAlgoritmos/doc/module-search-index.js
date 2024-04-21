@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"PracticaAlgoritmos"}];updateSearchResults();
+moduleSearchIndex = [];updateSearchResults();
